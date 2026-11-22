@@ -1,3 +1,6 @@
 model,parametreler,val_f1,val_recall,val_precision,val_accuracy,val_roc_auc,train_f1,fit_suresi_sn
 lr,"{'model__C': 0.1, 'model__penalty': 'l2'}",0.9286,0.9243,0.9333,0.9268,0.9789,0.9288,0.123
 knn,"{'model__metric': 'manhattan', 'model__n_neighbors': 5, 'model__weights': 'distance'}",0.9494,0.9474,0.9514,0.948,0.9861,1.0,0.046
+svm,"{'model__C': 1, 'model__gamma': 0.1, 'model__kernel': 'rbf'}",0.9548,0.9541,0.9554,0.9534,0.9833,0.9822,3.21
+rf,"{'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 100}",0.961,0.9579,0.9641,0.9599,0.9924,1.0,1.709
+xgb,"{'learning_rate': 0.3, 'max_depth': 5, 'n_estimators': 100, 'subsample': 0.8}",0.9605,0.9571,0.9641,0.9595,0.9937,0.9956,0.567
