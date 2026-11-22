@@ -1,0 +1,6 @@
+yontem,doldurma_dogrulugu,cv_f1
+Referans (eksiksiz veri),,0.9573
+Satır silme,,0.9551
+Mod (en sık değer),0.5366,0.9456
+Medyan,0.4943,0.9449
+KNN (k=5),0.5799,0.9452

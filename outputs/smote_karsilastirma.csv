@@ -1,0 +1,5 @@
+model,smote,f1,recall,precision,accuracy
+Random Forest,False,0.9584,0.9541,0.9627,0.9573
+Random Forest,True,0.9569,0.9533,0.9607,0.9558
+Logistic Regression,False,0.9272,0.923,0.9316,0.9253
+Logistic Regression,True,0.9263,0.9192,0.9338,0.9246
